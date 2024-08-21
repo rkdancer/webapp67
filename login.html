@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>login</title>
+    <style>
+        body{
+            background-color: #63bcec;
+        }
+    </style>
+</head>
+<h2 style="text-align:center ;">เข้าสู่ระบบ/ลงทะเบียน</h2>
+<body>
+    <form action="receivelogin.php" method="post" target="_blank">
+        <select name ="type">
+            ่<option value="1">ผู้ประกอบการ</option> 
+            <option value="2">ผู้สมัครงาน</option> 
+        
+        </select><br>
+        
+        เลขประจำตัวประชาชน <br><input type="text" id="user" name="user"  size="25"> <br>
+        รหัสผ่าน <br><input type="password" id="password" name="pass" size="25"><br>
+        
+        <br>
+       <input type="submit" id="send" name="send" value="เข้าสู่ระบบ">
+       <p>หากท่านยังไม่มีรหัสผู้ใช้งาน</p>
+
+       
+       
+       
+       
+    </form>
+    <form action="register.html" method="post" target="_blank">
+        <input type="submit" id="submit" name="register" value="สมัครสมาชิก">
+    </form>
+</body>
+</html>
